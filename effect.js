@@ -6,7 +6,7 @@ $('document').ready(function(){
 		var vw;
 		$(window).resize(function(){
 			 vw = $(window).width()/2;
-			$('#b1,#b2,#b3,#b4,#b5,#b6,#b7').stop();
+			$('#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9').stop();
 			$('#b11').animate({top:240, left: vw-450},500);
 			$('#b22').animate({top:240, left: vw-350},500);
 			$('#b33').animate({top:240, left: vw-250},500);
@@ -163,7 +163,7 @@ $('document').ready(function(){
 	$('#wish_message').click(function(){
 		 vw = $(window).width()/2;
 
-		$('#b1,#b2,#b3,#b4,#b5,#b6,#b7').stop();
+		$('#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9').stop();
 		$('#b1').attr('id','b11');
 		$('#b2').attr('id','b22')
 		$('#b3').attr('id','b33')
